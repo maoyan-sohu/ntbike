@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>NTBIKE</title>
+	<script type="text/javascript" src="./js/lib/jquery/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=IiD0xQ9tBFAPmGXgWbrPPYfu"></script>
+	<link href="./css/style.css" rel="stylesheet" type="text/css">
+	<link href="./css/ssmenu.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div class="header"><div id="logo"></div></div>
+	<div class="footer"><p>@copyright 版权归属 武汉大学 Senor焱</p></div>
+	<div class="alarm"><p>暂时没有数据，敬请期待！</p><b>X</b></div>
+	<div class="side_bar" id="side_bar">
+		<span>拉出侧边栏</span>
+		<ul style="height:100%;">
+			<li id="search">
+				<input type="text" placeholder="请输入关键字（若不输入，则搜索全部）"/>
+				<i></i>
+			</li>
+			<li style="height:93%">
+				<div class="list">
+					<ul></ul>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div id="mapwindow"></div>
+
+	<div id='ss_menu'>
+	  <div id="line1">
+	  	<h1>1号线</h1>
+		<i class="fa fa-l1"></i>
+	  </div>
+	  <div id="line2">
+	  	<h1>2号线</h1>
+		<i class="fa fa-l2"></i>
+	  </div>
+	  <div id="line3">
+	  	<h1>3号线</h1>
+		<i class="fa fa-l3"></i>
+	  </div>
+	  <div id="line4">
+	  	<h1>4号线</h1>
+		<i class="fa fa-l4"></i>
+	  </div>
+	  <div class='menu'>
+		<div class='share' id='ss_toggle' data-rot='180'>
+		  <div class='circle'></div>
+		  <div class='bar'></div>
+		</div>
+	  </div>
+	</div>
+
+</body>
+<script type="text/javascript" src="./js/subway.js"></script>
+<script type="text/javascript" src="./js/bike.js"></script>
+<script type="text/javascript" src="./js/main.js"></script>
+</html>
