@@ -2,10 +2,12 @@
 html{height: 100%;}
 body{height: 89%;}
 .header{height:73px;width:100%;background: #E8E8E8;position: fixed;text-align: center;top:0;}
-.header #logo{width:500px;height:100%;background:url(../pic/logo.png);background-position: 100%;margin: 0 auto;}
+.header #logo{width:454px;height:51px;background:url(../pic/logo.png);background-position: 100%;margin: 10px auto;}
 .footer{height: 24px;line-height:24px;width: 100%;background: #E8E8E8;position: absolute;bottom: 0;text-align:center;}
 .alarm{height: 100px;width: 250px;line-height: 100px;font-size: 30px;border-radius:8px;position: fixed;top: 40%;left: 40%;background: rgba(0,0,0,0.8);z-index: 1000;color: #fff;text-align: center;display: none;}
 .alarm p{font-size: 16px;}
+.clear{height: 60px;width: 60px;line-height: 60px;font-size: 20px;border-radius:50%;position: fixed;bottom:30px; right:100px; background: rgba(0,0,0,0.8);z-index: 2000;color: #fff;text-align: center;cursor: pointer;}
+.trail{height: 60px;width: 60px;line-height: 60px;font-size: 20px;border-radius:50%;position: fixed;bottom:100px; right:30px; background: rgba(0,0,0,0.8);z-index: 2000;color: #fff;text-align: center;cursor: pointer;}
 .alarm b{width:20px;height:20px;position: absolute;right: 4%;top: -30%;color: #fff;cursor: pointer;font-size: 20px;}
 .side_bar{width:290px;height:80%;background:rgba(128,138,135,0.9);position: fixed;left:-310px;top:88px;z-index: 999;padding: 10px;border-radius: 0 8px 8px 0;color:#fff;}
 .side_bar span{width:24px;height:110px;position: absolute;right:-30px;top: 40%;background:rgba(128,138,135,0.9);border-radius: 0px 12px 12px 0px;padding: 10px 0 0 6px;}
